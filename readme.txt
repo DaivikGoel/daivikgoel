@@ -1,2 +1,2 @@
-Private repository for Ipson Solutions
+Private repository for daivikgoel Solutions
 Contains private projects

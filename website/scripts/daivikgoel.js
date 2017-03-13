@@ -16,3 +16,8 @@ $(".down-arrow").click(function() {
         scrollTop: $(".second-container").offset().top
     }, 2000);
 });
+var $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+    // Do something else, like open/close menu
+  });
