@@ -203,10 +203,10 @@ video.fillWidth {
   float:center;
   background-color:white;
   margin-top: 3vh;
-  margin-left: 2vh;
   color: black;
   font-size: 22px;
   width: 100%;
+  margin-right: 2vh;
 
 }
 
