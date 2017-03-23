@@ -137,12 +137,12 @@ video.fillWidth {
 .container-two{
   position:relative;
   z-index:1;
-  height: 100vh;
   background-color: grey;
   border: 1px solid #fff;
   border-radius: 1px;
   margin-top: 1px;
   margin-bottom: 1px;
+  height:auto;
 }
 
 .catchline.services
@@ -181,10 +181,35 @@ video.fillWidth {
     z-index:3;
     position:relative;
     float:center;
-    height:40vh;
     background-color:grey;
     margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: white;
+    font-size: 22px;
 }
+.contact{
+  position:relative;
+  z-index:1;
+  background-color: grey;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  height:auto;
+}
+.contact-text{
+  z-index:3;
+  position:relative;
+  float:center;
+  background-color:white;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  color: black;
+  font-size: 22px;
+  width: 50%;
+
+}
+
 
 .img-circular{
  width: 200px;
