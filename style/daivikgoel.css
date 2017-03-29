@@ -219,3 +219,37 @@ video.fillWidth {
 border-radius: 50%;
 margin: 0 auto;
 }
+.wrapper {
+    position:fixed;
+    width:70px;
+    height:100%;
+    background-color:orange;
+    top:0;
+    right:0;
+}
+
+#toggle {
+    display:none;
+}
+
+label{
+    display:block;
+    background: #ccc;
+    cursor:pointer;
+}
+
+#toggle:checked ~ .cart{
+    right:0;
+}
+.cart {
+    position: absolute;
+    width:250px;
+    height:100%;
+    background-color:red;
+    right: -250px;
+    transition: right .4s;
+    -moz-transition:right .4s;
+    -webkit-transition:right .4s;
+    -o-transition: right .4s;
+    -ms-transition:right .4s;
+}
