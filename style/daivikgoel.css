@@ -143,6 +143,7 @@ video.fillWidth {
   margin-top: 1px;
   margin-bottom: 1px;
   height:auto;
+  width:100%
 }
 
 .catchline.services
@@ -153,7 +154,7 @@ video.fillWidth {
   height: 12vh;
   font: raleway-bold;
   vertical-align: middle;
-
+width:100%
 }
 
 .top-services{
@@ -196,6 +197,7 @@ video.fillWidth {
   margin-top: 1px;
   margin-bottom: 1px;
   height:auto;
+  width:100%
 }
 .contact-text{
   z-index:3;
@@ -255,6 +257,6 @@ label{
 }
 iframe
 {
-  transform:scale(1.25);/*zoomish*/
+  transform:scale(1);/*zoomish*/
   width:100%;
 }
