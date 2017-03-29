@@ -253,3 +253,8 @@ label{
     -o-transition: right .4s;
     -ms-transition:right .4s;
 }
+iframe
+{
+  transform:scale(1.25);/*zoomish*/
+  width:100%;
+}
