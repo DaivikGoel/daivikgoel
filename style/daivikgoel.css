@@ -66,7 +66,6 @@ text-decoration: none;
 
 .top-container {
   position: relative;
-  width: 100%;
   height: 100vh;
   left:0;
   right:0;
@@ -74,7 +73,6 @@ text-decoration: none;
 
 .container-two {
   background-color: antiquewhite;
-  width: 100%;
   height: 700px;
   position: relative;
   text-align: center;
@@ -143,7 +141,6 @@ video.fillWidth {
   margin-top: 1px;
   margin-bottom: 1px;
   height:auto;
-  width:100%
 }
 
 .catchline.services
@@ -154,13 +151,11 @@ video.fillWidth {
   height: 12vh;
   font: raleway-bold;
   vertical-align: middle;
-width:100%
 }
 
 .top-services{
   position:relative;
   z-index:2;
-  width:100%;
   height:100vh;
   background-color:white;
   margin-top:5vh;
@@ -197,7 +192,6 @@ width:100%
   margin-top: 1px;
   margin-bottom: 1px;
   height:auto;
-  width:100%
 }
 .contact-text{
   z-index:3;
@@ -208,7 +202,7 @@ width:100%
   color: black;
   font-size: 22px;
   width: 100%;
-  margin-right: 2vh;
+  
 
 }
 
