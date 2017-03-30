@@ -119,6 +119,18 @@ video.fillWidth {
   font-size:32px;
   text-align: center;
 }
+.big-text{
+    z-index:300000;
+    width:60%;
+    position: relative;
+    top:35vh;
+    margin: 0 auto;
+    font:raleway;
+    color:white;
+    font-size:50px;
+    text-align: center;
+
+}
 
 
 .secondary-text {
@@ -202,7 +214,7 @@ video.fillWidth {
   color: black;
   font-size: 22px;
   width: 100%;
-  
+
 
 }
 
