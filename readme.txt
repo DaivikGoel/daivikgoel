@@ -1,4 +1,4 @@
-daivikgoel.ca website folder
-All changes must be made in a new branch
-New branch will be merged into master (once reviewer approves)
-master will be uploaded to host server.
+daivikgoel.com website folder
+Personal Website for Daivik Goel
+Any suggestions should be made on a new branch to be reviewed. 
+Master will be uploaded to host server.
