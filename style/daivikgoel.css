@@ -87,6 +87,12 @@ text-decoration: none;
 	overflow: hidden;
   filter: opacity(50%);
 }
+.parallax-window {
+    min-height: 400px;
+    height: 100%;
+    background: transparent;
+    width: 100%;
+}
 video {
 	position:absolute;
 	z-index:0;
