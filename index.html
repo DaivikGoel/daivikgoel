@@ -1,175 +1,487 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset ="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- site icon -->
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <!-- our css -->
-    <link rel="stylesheet" href="style/daivikgoel.css" >
-  <!-- jquery -->
-  <link rel="stylesheet" href="style/social.css" >
-  <link rel="stylesheet" href="style/hamburger.css" >
+<title>Daivik Goel</title>
 
-  <!--hamburgermenu-->
-  <link href='style/resume-button.css' rel='stylesheet' type='text/css'>
-<!--button-->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="scripts/parallax.min.js"></script>
-  <script src="scripts/typed.min.js"></script>
-  <title>Daivik Goel</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="templatemo">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 
 </head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="0">
 
-<body>
 
-  <div class="top-container">
-      <div class="overlay">
-      <nav class="navbar fixed-top">
-        <div class="nav-parent">
-          <a class="navbar-brand" href="#">
-            Daivik Goel
-          </a>
-          <button class="hamburger hamburger--spin " type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
-  <span class="hamburger-box">
-    <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav">
-               <li><a href="#aboutme">About Me</a></li>
-               <li><a href="#resume">Resume</a></li>
-               <li><a href="#contact">Contact Me</a></li>
-           </ul>
-       </div>
-        </div>
-      </nav>
-    </div>
-    <!--center text in top-container -->
-    <div  class="big-text">
-      <div  class="big-text">Who am I?</div>
-    <span id="big-text" class="big-text"><span id= typed-cursor>|</span></span>
-  </div>
-    <div id="video-container">
-      <div class="parallax-window" data-parallax="scroll" data-image-src="style/pics/background.jpg"></div>
-      <!--img src="style/pics/background.jpg" class="fillWidth" >-->
-    </div>
-    </div>
-<a name="aboutme"></a>
-    <div class="container-two">
-        <div class="catchline services"> About Me</div>
-        <img src="style/pics/Me.jpg" class="img-circular">
-        <a name="resume"></a>
-        <div class="service-text">My name is Daivik Goel and I am a Bachelors of Computer Engineering Student at the University of Waterloo. I am currently on my 2A study term and am looking for employment for my coop term. I have experience in various development languages such as C++, Javascript, Ruby on Rails, HTML and CSS. I bring a passion for the tech industry and keep up to date with the latest developments. For more information about my qualifications please take a look at  my resume  below.</div>
-        <div >
+<!-- Navigation Section -->
 
-          <iframe src="assets/resume/DaivikGoel'sResume.html" width=100% height="600" margin-bottom: 60px;> </iframe>
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+     <div class="container">
+
+          <!-- navbar header -->
+          <div class="navbar-header" >
+<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="#" class="navbar-brand">Daivik Goel</a>
+          </div>
+
+          <div class="= navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About Me</a></li>   
+<li>
+      <a href="#intro" class="smoothScroll">Work Experience</a>
+</li>
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- Home Section -->
+
+<section id="home" class="parallax-section">
+<div class="overlay"></div>
+<div class="container">
+      <div class="row">
+<div class="home-thumb">
+<div class="section-title">
+      <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am
+            <strong>Daivik Goel</strong>
+      </h1>
+<p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 2B Computer Engineering Student at the University of Waterloo </p>
+      <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1s">About Me</a>
+
+</div>
+</div>   
+            </div>
+
+      </div>
+</section>
+
+
+<!-- About Section -->
+
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-6 col-sm-12">
+                    <div class="about-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
+<h1 class="color-yellow">Personal Motto</h1>
+                         </div>
+                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+<p class="color-yellow">Every opportunity is valuable in shaping a career — whether it be in establishing a presence in a field or company or some
+      form of personal growth helping you get one step closer to your ambitions and goals. As a Computer Engineering student
+      at the University of Waterloo, I try maximizing these opportunities by dedicating myself to the pursuit of making a
+      real impact on any work I do and keeping myself updated new developments in the Engineering field.
+</p>
+<a href="https://www.linkedin.com/in/daivik-goel-954806128/" target="_blank" class="wow fadeInUp smoothScroll section-btn btn btn-success fa fa-linkedin"
+      data-wow-delay="1.4s"></a>
+<a href="assets/DaivikGoel.pdf" target = "_blank " class="wow fadeInUp smoothScroll section-btn btn btn-success fa fa-file-pdf-o
+      " data-wow-delay="1.4s "></a>
+<a href="mailto:d3goel@edu.uwaterloo.ca" target="_blank" class="wow fadeInUp smoothScroll section-btn btn btn-success fa fa-envelope-o"
+      data-wow-delay="1.4s"></a>
+                             <a href="https://github.com/daivikgoel" target = "_blank" class="wow fadeInUp smoothScroll section-btn btn btn-success fa fa-github" data-wow-delay="1.4s"></a>
+				 
+                         </div>
+                    </div>
+               </div>
+
+               <div class="bg-yellow col-md-6 col-sm-12">
+                    <div class="skill-thumb">
+                         <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
+                              <h1>My Skills</h1>
+                              <p class="color-white">Various skills I've gained through my coop work terms and other experience</p>
+							 
+                         </div>
+      <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
+      <strong>Public Speaking</strong>
+      <span class="color-white pull-right">40 months</span>
+      <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 100%;"></div>
+      </div>
+                         <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
+                         <strong>Agile Methodologies</strong>
+                              <span class="color-white pull-right">12 months</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                   </div>
+                             
+                         <strong>Software Development</strong>
+                              <span class="color-white pull-right">12 months</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                   </div>
+             
+                        <strong>Solution Engineering</strong>
+                              <span class="color-white pull-right">8 months</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 66%;"></div>
+                                   </div>
+							 
+						 <strong>Project Management</strong>
+                              <span class="color-white pull-right">4 months</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                   </div>
+						 <strong>Innovation Development</strong>
+                              <span class="color-white pull-right">4 months</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                   </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- My Experience Photo Reel -->
+
+<section id="intro" class="parallax-section">
+      <div class="overlay"></div>
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-md-offset-1 col-md-10 col-sm-12">
+                        <h2 class="wow fadeInUp color-white" data-wow-delay="0.8s">My Experience</h2>
+
+                        <div class="wow fadeInUp col-md-15 col-sm-3" data-wow-delay="1s">
+                              <img src="images/spc-img.jpg">
+                        </div>
+                        <div class="wow fadeInUp col-md-15 col-sm-3" data-wow-delay="1.2s">
+                              <img src="images/2.jpeg">
+                        </div>
+                        <div class="wow fadeInUp col-md-15 col-sm-3" data-wow-delay="1.4s">
+                              <img src="images/3.jpg">
+                        </div>
+                        <div class="wow fadeInUp col-md-15 col-sm-3" data-wow-delay="1.6s">
+                              <img src="images/4.jpg">
+                        </div>
+                        <div class="wow fadeInUp col-md-15 col-sm-3" data-wow-delay="1.8s">
+                              <img src="images/5.jpg">
+                        </div>
+
+                        <p class="wow fadeInUp color-white" data-wow-delay="2s">From developing the Royal Canadian Air Force's First Mobile App to creating architecture for systems potentially impacting 6 million Shaw customers
+                              I always look for new challenges I can take on. I bring an analytical mindset along with a collaborative attitude to each problem I tackle.
+                        </p>
+                        <i class="wow fadeInUp fa fa-chevron-down" data-wow-delay="0.6s"></i>
+                  </div>
+
+            </div>
+      </div>
+</section>
+
+
+<!-- Shaw Section-->
+
+<section id="experience" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="background-image shaw-img"></div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="color-white experience-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                              <h1>Solution Architect</h1>
+                              <p class="color-white">Shaw Communications</p>
+                              <p class="color-white">Calgary, Alberta</p>
+                              <p class="color-white">May 2018 - August 2018</p>
+                         </div>
+                        
+                        <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                              <div class="media-body">
+                                  
+<ul class=" wow fadeInUpcolor-white" data-wow-delay="1.4s">
+      <li>Conceptualized various Application and Security Architectures involving a variety of Software Resources Shaw possesses
+            </li>
+<li>Created various Architecture Assessments detailing various Digital Solutions for incoming business requirements </li>
+<li>Facilitated meetings between Project Managers and Business Analysts in order to assess viability of various products Shaw
+      is to launch </li>
+<li>Working to become a certified Amazon Web Services Solutions Architect </li>
+</ul>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- AirForce -->
+
+<section id="airforce" class="parallax-section">
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-md-6 col-sm-6">
+                        <div class="color-white airforce-thumb">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                    <h1>Software Solutions Developer</h1>
+                                    <p class="color-white">Royal Canadian Air Force</p>
+                                    <p class="color-white">Kitchener, Ontario</p>
+                                    <p class="color-white">September 2017 - December 2017</p>
+                              </div>
+
+                              <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                                    
+                                    <div class="media-body">
+<ul class=" wow fadeInUp color-white" data-wow-delay="1.4s">
+<li>Pioneered the development of the Department of National Defense’s first Mobile Application in order to offer the RCAF a unique
+      solution to their problems
+</li>
+<li> Implemented the Scrum and Agile Methodology for the Air Force to follow for more effective software development </li>
+<li>Provided consultation on a wide variety of proposed projects to various wing commanders around Canada brought up in Innovation
+      Basecamps  </li>
+<li>Part of the Hiring Process for the next set of co-ops providing assistance in interview selections and conducting candidate
+      interviews for the position</li>
+</ul>
+                                    </div>
+                              </div>
+
+                        </div>
+                  </div>
+
+<div class=" col-md-6 col-sm-6">
+                        <div class="background-image airforce-img"></div>
+                  </div>
+
+            </div>
+      </div>
+</section>
+
+<!-- Mosaic Section-->
+<section id="experience" class="parallax-section">
+      <div class="container">
+            <div class="row">
+
+                  <div class="col-md-6 col-sm-6">
+                        <div class="background-image other-img"></div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6">
+                        <div class="color-white experience-thumb">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                                    <h1>Other Experiences</h1>
+                              </div>
+
+                              <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                                    <div class="media-object media-left">
+                                          <i class="fa fa-black-tie"></i>
+                                    </div>
+                                    <div class="media-body">
+                                          <h3 class="media-heading">Project Manager
+                                                <small>October 2017 - January 2018</small>
+                                          </h3>
+                                          <p class="color-white">
+                                                Student Pathways Challenge</p>
+<ul class="wow fadeInUp color-white" data-wow-delay="1.4s">
+<li>Led a development team of 5 tasked in creating an application designed to help students across in Ontario. The competition involved various other teams across the province
+      </li>
+<li> Received 2nd Place and a monetary reward of $13,000 for the product </li>
+      
+</ul>
+                                    </div>
+                              </div>
+
+                              <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                                    <div class="media-object media-left">
+                                          <i class="fa fa-laptop"></i>
+                                    </div>
+                                    <div class="media-body">
+                                          <h3 class="media-heading ">Enterprise Developer
+                                                <small>January 2017 - April 2017</small>
+                                          </h3>
+                                          <p class="color-white">
+                                          Mosaic Sales Solutions
+                                          </p>
+<ul class="color-white wow fadeInUp" data-wow-delay="1.8s">
+<li>Utilized React-Native Framework for front end development of mobile applications using JavaScript and HTML and Ruby on Rails and SQL for backend development
+      </li>
+<li> Collaborated with the Business Analysts to come up with new features to offer clients </li>
+
+</ul>
+                                    </div>
+                              </div>
+
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+</section>
+
+
+
+
+<!-- Contact Section -->
+
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-12">
+                    <div class="contact-form">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <h1 class="color-white">Contact Me</h1>
+                              <p class="color-white">See a potential fit? Let's Talk.</p>
+                         </div>
+
+                         <div id="contact-form">
+                              <form method="POST" action="http://formspree.io/daivikgoel98@gmail.com">
+                                   <div class="wow fadeInUp" data-wow-delay="1s">
+                                        <input name="fullname" type="name" class="form-control" id="fullname" placeholder="Your Name">
+                                   </div>
+                                   <div class="wow fadeInUp" data-wow-delay="1.2s">
+                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                   </div>
+                                   <div class="wow fadeInUp" data-wow-delay="1.4s">
+                                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
+                                   </div>
+                                   <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send">
+                                   </div>
+                              </form>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                    <div class="background-image contact-img"></div>
+               </div>
+
+               <div class="bg-dark col-md-3 col-sm-6">
+                    <div class="contact-thumb">
+                         <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
+                              
+                         </div>
+
+                         <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
+                              <h3 class="color-white">Lets Chat.</h3>
+<p>
+<i class=" color-yellow fa fa-phone"></i>
+      <a href="tel:403-472-9976" class="social-icon">403-472-9976</a></p>
+                              <p><i class=" color-yellow fa fa-envelope-o"></i> <a href="mailto:d3goel@edu.uwaterloo.ca">d3goel@edu.uwaterloo.ca</a></p>
+<p>
+      <i class=" color-yellow fa fa-linkedin-square"></i>
+      <a href="https://www.linkedin.com/in/daivikg" target="_blank">daivikg</a>
+</p>
+<p>
+      <i class=" color-yellow fa fa-github-alt"></i>
+      <a href="https://github.com/daivikgoel" target="_blank">daivikgoel</a>
+</p>
+<p>
+<i class="color-yellow fa fa-file-pdf-o"></i>
+      <a href="assets/DaivikGoel.pdf">Resume</a>
+</p>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+            <div class="item active">
+                  <img src="images/taj-img.jpg" alt="taj" style="width:100%;">
+            </div>
+
+            <div class="item">
+                  <img src="images/calgary.jpg" alt="Calgary" style="width:100%;">
+            </div>
+
+            <div class="item">
+                  <img src="images/CN.jpg" alt="CN Tower" style="width:100%;">
+            </div>
       </div>
 
-      <button>
-      <a href="assets/DaivikGoel.pdf" download="DaivikGoelResume.pdf">Download PDF</a>
-    </button>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+      </a>
 </div>
-    <div class="contact">
-          <div class="catchline services"> Contact Me</div>
-          <div>
-          <form method="POST" action="http://formspree.io/daivikgoel98@gmail.com">
-            <div >
-  <input class="contact-text"type="email" name="email" placeholder="Your email">
-</div>
-<div>
-  <textarea class="contact-text"name="message" placeholder="Your message"></textarea>
-</div>
-<div>
-  <button style="margin-bottom: 2vh;"class="contact-text"type="submit">Send</button>
-  <input type="hidden" name="_next" value="http://www.daivikgoel.com/#contact" />
-</div>
-</form>
-</div>
+                         </div>
+                         
+                    </div>
+               </div>
 
-</div>
-<div>
-  <p> © Daivik Goel. Made mostly with Pure CSS, HTML and Javascript.</p>
-  <ul class="social-icons">
-      <li><a href="assets/DaivikGoel.pdf" class="social-icon"> <i class="fa fa-file-pdf-o"></i></a></li>
-      <li><a href="https://github.com/DaivikGoel" class="social-icon"> <i class="fa fa-github"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/daivik-goel-954806128/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-      <li><a href="mailto:daivikgoel98@gmail.com" class="social-icon"> <i class="fa fa-envelope"></i></a></li>
-      <li><a href="tel:403-472-9976" class="social-icon"> <i class="fa fa-phone"></i></a></li>
-      <li><a href="https://github.com/DaivikGoel/daivikgoel" class="social-icon"> <i class="fa fa-code"></i></a></li>
-  </ul>
-  <a name="contact"></a>
-</div>
+          </div>
 
-    <!--our js-->
-    <script src="typed.min.js"></script>
-<script>
-	document.addEventListener("DOMContentLoaded", function(){
-		Typed.new("#big-text", {
-			strings: ["Javascript, HTML and CSS Developer", "Java, C++ and Ruby on Rails Developer", "Unwavering work ethic", "University of Waterloo Student"],
-      stringsElement: null,
-	// typing speed
-	typeSpeed: 20,
-	// time before typing starts
-	startDelay: 5,
-	// backspacing speed
-	backSpeed: 10,
-	// shuffle the strings
-	shuffle: false,
-	// time before backspacing
-	backDelay: 2000,
-	// Fade out instead of backspace (must use CSS class)
-	fadeOut: true,
-	fadeOutClass: 'typed-fade-out',
-	fadeOutDelay: 500, // milliseconds
-	// loop
-	loop: false,
-	// null = infinite
-	loopCount: null,
-	// show cursor
-	showCursor: true,
-	// character for cursor
-	cursorChar: "|",
-	// attribute to type (null == text)
-	attr: null,
-	// either html or text
-	contentType: 'html',
-	// call when done callback function
-	callback: function() {},
-	// starting callback function before each string
-	preStringTyped: function() {},
-	//callback for every typed string
-	onStringTyped: function() {},
-	// callback for reset
-	resetCallback: function() {}
+     </div>
+     
+</section>
 
-		});
-	});
-</script>
-    <script type="text/javascript" src="scripts/daivikgoel.js"></script>
-    <script type="text/javascript" src="scripts/button.js"><script>
-    <!-- Bootstrap js, jquery, tether -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-      <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-98419716-1', 'auto');
-  ga('send', 'pageview');
+<!-- Footer Section -->
 
-</script>
+<footer>
+	<div class="container">
+		<div class="row">
 
-  </body>
-</>
-  </html>
+               <div class="col-md-12 col-sm-12">
+                    <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
+                         <p class="color-white" >Daivik Goel &copy; 2018
+                    
+                    
+                    </div>
+				<ul class="wow fadeInUp social-icon" data-wow-delay="2s">
+                        
+<li>
+      <a href="https://github.com/DaivikGoel/daivikgoel" class=" fa fa-code color-white"></a>
+</li>
+<li>
+      <a href="mailto:d3goel@edu.uwaterloo.ca" class="fa fa-envelope-o"></a>
+</li>
+<li>
+      <a href="https://www.linkedin.com/in/daivikg" class="fa fa-linkedin"></a>
+</li>
+                    </ul>
+               </div>
+			
+		</div>
+	</div>
+</footer>
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
