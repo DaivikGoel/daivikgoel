@@ -289,7 +289,7 @@ a:hover, a:active, a:focus {
     Home section              
 -----------------------------------------*/
 #home {
-  background: url('../images/background.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/view.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -481,7 +481,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/view2.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
