@@ -155,6 +155,9 @@ footer {
 .color-white {
   color: #ffffff;
 }
+.color-grey {
+  background: #424242;
+}
 
 .color-yellow {
   color: #2eb82e;
@@ -168,9 +171,17 @@ footer {
   background: #ffffff;
 }
 
+.bg-grey {
+  background: #424242;;
+}
+
 .bg-dark {
   background: #161616;
 }
+.bg-blue {
+  background: rgb(18, 20, 136);
+}
+
 
 
 
@@ -396,7 +407,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #E9724C;
+  background: #424242;
 }
 
 #service p {
@@ -428,6 +439,7 @@ a:hover, a:active, a:focus {
   background: url('../images/other.jpg') no-repeat;
   min-height: 100vh;
 }
+
 
 #experience .media-heading {
   margin-bottom: 0px;
