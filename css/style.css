@@ -431,12 +431,12 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .shaw-img {
-  background: url('../images/shaw-img.jpg') no-repeat;
+  background: url('../images/other.jpg') no-repeat;
     min-height: 100vh;
 }
 
 #experience .other-img {
-  background: url('../images/other.jpg') no-repeat;
+  background: url('../images/ocean.jpg') no-repeat;
   min-height: 100vh;
 }
 
