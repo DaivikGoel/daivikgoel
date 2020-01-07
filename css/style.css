@@ -440,6 +440,10 @@ a:hover, a:active, a:focus {
   min-height: 100vh;
 }
 
+#experience .smiling-img {
+  background: url('../images/smiling.jpg') no-repeat;
+  min-height: 100vh;
+}
 
 #experience .media-heading {
   margin-bottom: 0px;
