@@ -199,7 +199,6 @@ class Landing extends Component {
             {bodyType => this.getBodyContent(bodyType, screenSize)}
           </Transition>
         </Div>
-
         <Header
           key="header"
           isFirstTime={isFirstTime}
@@ -233,6 +232,7 @@ class Landing extends Component {
           onClickTimeline={this.onClickTimeline}
           onClickProject={this.onClickProject}
         />
+        
       </Div>
     );
   }

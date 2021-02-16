@@ -12,13 +12,13 @@ import electronBackgroundImage from 'Images/technology/electron-background-image
 
 export const techList = [
   {
-    id: 'react',
-    name: 'React',
+    id: 'TAD',
+    name: 'The Almost Dropouts',
     firstLogo: reactIcon,
     backgroundImage: reactBackgroundImage,
     description: `I have the most as well as recent experience in React compared to other technology in my list. I have created and architected web projects from scratch as well as jumped on ongoing projects.
     <br/><br/>I am familiar with recent techniques and libraries used in react like code-splitting, Hooks, React-Router, Final-Form, Redux, Redux-api-middleware, css in js, etc.`,
-    projects: ['snapteam', 'nykaa', 'wakency'],
+    projects: ['snapteam', 'Tesla1', 'wakency'],
   },
   {
     id: 'android',

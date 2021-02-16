@@ -59,7 +59,7 @@ export const getBackgroundTransition = (techType, imageAlignment, isFirstAnimati
   let transition = {};
 
   if (
-    techType == "react" ||
+    techType == "TAD" ||
     techType == "react-native" ||
     techType == "electron"
   ) {

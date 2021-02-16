@@ -40,14 +40,12 @@ const ProfilePic = ({ isFirstTime, isFullScreen, onClickProfilePic, screenSize }
   })
 
   return (
-    transition.map(({ item, props: transitionProps }) => (
-      item && (
         <animated.img
           key="profile-pic"
           style={{
-            opacity: transitionProps.opacity,
-            boxShadow: springProps.boxShadow,
-            transform: isFirstTime ? transitionProps.transform : springProps.userPicTranform
+            opacity: 1,
+            boxShadow: '0px 3px 12px 2px rgba(0, 0, 0, 0)',
+            transform: 'translate(calc(-40px - 0vw), calc(0vh - -10px)) scale(0.3)',
           }}
           src={profilePic}
           className={`${styles.user_pic} ${
@@ -55,9 +53,6 @@ const ProfilePic = ({ isFirstTime, isFullScreen, onClickProfilePic, screenSize }
             }`}
           onClick={onClickProfilePic}
         />
-      )
-    )
-    )
   )
 }
 

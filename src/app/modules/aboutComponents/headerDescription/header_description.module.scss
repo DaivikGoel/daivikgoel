@@ -2,41 +2,43 @@
 @import '~Styles/mixins.module';
 
 .user_description_container {
-  left: calc(50vw - 265px);
-  padding: 118px 90px 41px;
-  border-radius: 35px;
-  box-shadow: 0px 5px 12px 3px rgba(0, 0, 0, 0.35);
-  background-color: rgba(#ffffff, 0.87);
-  max-width: 350px;
-  position: absolute;
+  background-color: rgba(#000000, 0.8);
+  width: 100%;
+  height: 100%;
   z-index: 1;
-
-  color: $color-dark;
-  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
   .contact_container {
     margin-top: 38px;
   }
 
   .user_description {
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 45px 0 45px;
 
     .name {
-      color: $color-blue;
-      font-size: 14px;
+      font-weight: 700;
     }
   }
 
   .user_button_container {
     margin-top: 30px;
-    flex-wrap: wrap;
+      display: flex;
+      text-align: left;
+        font-size: 2vh;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0.2px;
 
     .user_button {
-      font-size: 14px;
       font-weight: bold;
-      margin: 0px 3px;
       cursor: pointer;
-      color: $color-green;
       transition: transform 300ms ease-out;
 
       .underline {
@@ -57,20 +59,51 @@
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: 300;
+}
 
-@include medium {
-  .user_description_container {
-    padding: 90px 16px 20px;
-    border-radius: unset;
-    max-width: unset;
-    left: unset;
 
-    .user_button_container {
-      margin-top: 20px;
-    }
-  
-    .contact_container {
-      margin-top: 30px;
-    }
-  }
+h1 {
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+  font-size: 5.5vh;
+}
+
+h2 {
+  line-height: 52px;
+  margin-top: 0px;
+}
+
+h3 {
+  line-height: 32px;
+  padding-bottom: 6px;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+
+h5 {
+  color: #666666;
+}
+
+strong {
+  font-weight: normal;
+}
+p {
+  font-size: 2vh;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
 }

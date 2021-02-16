@@ -14,8 +14,9 @@ $transition-type: cubic-bezier(0.1, 0.82, 0.25, 1);
   overflow: hidden;
   height: 100vh;
   transform-origin: top;
-  //background: $color-dark;
   z-index: 1;
+  opacity: 1;
+  color: black;
 }
 
 .header_background_container {
@@ -23,4 +24,7 @@ $transition-type: cubic-bezier(0.1, 0.82, 0.25, 1);
   width: 100%;
   overflow: hidden;
   transform: scale(1.1);
+  
 }
+
+

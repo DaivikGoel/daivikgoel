@@ -14,7 +14,7 @@ const HeaderLinks = ({
   const [showMenu, setMenuState] = useState(false);
   const transition = useTransition(isFullScreen, null, {
     from: {
-      opacity: 0,
+      opacity: 1,
       transform: "translateY(-20px)"
     },
     enter: {
@@ -22,7 +22,7 @@ const HeaderLinks = ({
       transform: "translateY(0px)"
     },
     leave: {
-      opacity: 0,
+      opacity: 1,
       transform: "translateY(-20px)"
     }
     // config: { delay: isFullScreen ? 600 : 0 }
@@ -32,7 +32,7 @@ const HeaderLinks = ({
       bodyType == landingPageBody.TIMELINE
         ? "translateX(0px)"
         : "translateX(77px)",
-    underlineWidth: bodyType == landingPageBody.TIMELINE ? 62 : 37
+    underlineWidth: bodyType == landingPageBody.TIMELINE ?  0 : 0
   });
 
   return transition.map(
@@ -81,15 +81,15 @@ const HeaderLinks = ({
             <Div row className={styles.bodytype_container}>
               <div
                 className={styles.header_link_button}
-                onClick={onClickTimeline}
+                onClick={onClickProject}
               >
-                Timeline
+                Ventures
               </div>
               <div
                 className={styles.header_link_button}
-                onClick={onClickProject}
+                onClick={onClickTimeline}
               >
-                Tech
+                Experience
               </div>
             </Div>
             <animated.div

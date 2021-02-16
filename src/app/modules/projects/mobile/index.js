@@ -21,7 +21,7 @@ class ProjectsMobile extends Component {
   constructor(props) {
     super(props);
     this.isFirstAnimation = true;
-    const selectedProjectId = 'react';
+    const selectedProjectId = 'TAD';
     const imageAlignment = random(0, 3);
     const imagePosition = getImagePosition(selectedProjectId, imageAlignment, true);
     const backgroundTransition = getBackgroundTransition(
@@ -159,7 +159,7 @@ class ProjectsMobile extends Component {
               const fromAnimation = tech.id == selectedProjectId ? from : enter;
               const toAnimation = tech.id == selectedProjectId ? enter : leave;
               const isReactRelated =
-                tech.id == "react" ||
+                tech.id == "TAD" ||
                 tech.id == "react-native" ||
                 tech.id == "electron";
 

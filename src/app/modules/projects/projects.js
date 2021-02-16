@@ -14,7 +14,7 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.isFirstAnimation = true;
-    const selectedTechId = 'react';
+    const selectedTechId = 'TAD';
     const imageAlignment = random(0, 3);
     const imagePosition = getImagePosition(selectedTechId, imageAlignment);
     const backgroundTransition = getBackgroundTransition(
@@ -26,7 +26,7 @@ class Projects extends Component {
     this.state = {
       selectedTechId,
       techTransitionAnimation: {
-        react: {
+        TAD: {
           ...backgroundTransition,
           imagePosition
         }
@@ -84,7 +84,7 @@ class Projects extends Component {
               const fromAnimation = tech.id == selectedTechId ? from : enter;
               const toAnimation = tech.id == selectedTechId ? enter : leave;
               const isReactRelated =
-                tech.id == "react" ||
+                tech.id == "TAD" ||
                 tech.id == "react-native" ||
                 tech.id == "electron";
 

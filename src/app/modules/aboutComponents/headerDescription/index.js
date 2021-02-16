@@ -16,11 +16,11 @@ const HeaderDescription = ({
       items={showDescription}
       from={{
         opacity: 0,
-        transform: "translateY(calc(50vh - 0px))"
+        transform: "translateY(0))"
       }}
       enter={{
         opacity: 1,
-        transform: "translateY(calc(50vh - 145px))"
+        transform: "translateY(calc(0))"
       }}
       leave={{
         opacity: 0
@@ -32,37 +32,37 @@ const HeaderDescription = ({
         (props => (
           <Div style={props} className={styles.user_description_container}>
             <div className={styles.user_description}>
-              Hi, <br />I am <b className={styles.name}>Riyaz Ahmed</b>, A
-              Software Developer with 4+ years of Software Development
-              experience on various Platforms, Passionate to build Polished,
-              Innovative and well-detailed Apps with Fluid Animations to
-              complement the Design.
-              {/* <br/><br/> In my spare time, I usually read or play video games but mostly i try to work on new ideas and learn. */}
-            </div>
-
-            <Div row justify align className={styles.user_button_container}>
-              Checkout my
-              <Div
-                align
-                className={styles.user_button}
-                onClick={onClickTimeline}
-              >
-                Timeline
-                <Underline isFirstTime={isFirstTime} />
+              <Div row justify align className={styles.user_button_container}>
               </Div>
-              and
+              <h1> Hello, I am  <strong>Daivik Goel</strong></h1>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 4A Computer Engineering
+                                          Student at the University of Waterloo </p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Product Manager Intern at Tesla</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Founder of uWaterloo Voice</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Vice President Of Branding at the UW PM Club</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Director Of Outreach at the UW VR/AR Club</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 2 x Sandford Fleming Foundation Engineering Debate Champion </p>
+            </div>
+            <Div row justify align className={styles.user_button_container}>
+              Checkout some of my&nbsp;
               <Div
                 align
                 className={styles.user_button}
                 onClick={onClickProject}
               >
-                Technologies
+               Personal Ventures
                 <Underline isFirstTime={isFirstTime} />
               </Div>
-              that I worked on.
+              &nbsp;or some of my &nbsp;
+              <Div
+                align
+                className={styles.user_button}
+                onClick={onClickTimeline}
+              >
+                Previous Experiences
+                <Underline isFirstTime={isFirstTime} />
+              </Div>
             </Div>
-
-            <ContactComponent className={styles.contact_container} />
           </Div>
         ))
       }

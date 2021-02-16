@@ -21,6 +21,7 @@ const BackgroundAnimator = ({ clientX, clientY }) => {
         <animated.div className={styles.background_image_layer} style={{ transform: animationProps.xy.interpolate(trans3), backgroundImage: `url(${backgroundDarkDoodleFirst})` }}>
         </animated.div>
       </Fragment>
+      
   )
 }
 

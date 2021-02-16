@@ -6,9 +6,10 @@ import { useTransition, animated, config } from 'react-spring';
 const Header = ({ isFullScreen, showDescription, clientX, clientY, isFirstTime }) => {
   const containerTransition = useTransition(isFullScreen, null, {
     from: {
-      opacity: isFirstTime? 1 : 0,
+      opacity: isFirstTime? 1 : 1,
       transform: isFirstTime ? 'scaleY(1)': 'scaleY(0.07)',
       background: isFirstTime ? '#33333300' : '#333333',
+      
     },
     enter: {
       opacity: 1,
@@ -16,7 +17,7 @@ const Header = ({ isFullScreen, showDescription, clientX, clientY, isFirstTime }
       background: '#333333',
     },
     leave: {
-      opacity: 0,
+      opacity: 1,
       transform: 'scaleY(0.07)',
       background: '#333333',
     },
@@ -24,9 +25,9 @@ const Header = ({ isFullScreen, showDescription, clientX, clientY, isFirstTime }
   });
 
   const backgroundAnimatorTransition = useTransition(showDescription, null, {
-    from: { opacity: 0 },
+    from: { opacity: 1},
     enter: { opacity: 1 },
-    leave: { opacity: 0 }
+    leave: { opacity: 1 }
   });
 
   return (

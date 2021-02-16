@@ -6,10 +6,12 @@
     // background: $color-dark;
     position: relative;
     
+    
     .body_container {
       padding-top: 70px;
       position: relative;
       overflow: hidden;
+      
 
       .body_content_container {
         position: absolute;
@@ -17,6 +19,16 @@
         left: 0;
         right: 0;
         bottom: 0;
+        
       }
     }
+      .background_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba($color-dark, 0.7);
+        z-index: 1;
+      }
 }

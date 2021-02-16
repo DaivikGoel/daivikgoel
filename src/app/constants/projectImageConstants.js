@@ -5,7 +5,8 @@ const projectImages = {
   wakency: require.context(`../../assets/images/projectImages/wakency`, false, /.*\.png$/),
   benefactory: require.context(`../../assets/images/projectImages/benefactory`, false, /.*\.png$/),
   lighthouse: require.context(`../../assets/images/projectImages/lighthouse`, false, /.*\.png$/),
-  nykaa: require.context(`../../assets/images/projectImages/nykaa`, false, /.*\.png$/),
+  Tesla1: require.context(`../../assets/images/projectImages/nykaa`, false, /.*\.png$/),
+  Tesla2: require.context(`../../assets/images/projectImages/nykaa`, false, /.*\.png$/),
   vc_music_player: require.context(`../../assets/images/projectImages/vc_music_player`, false, /.*\.png$/)
 };
 
@@ -31,7 +32,7 @@ export const getProjectImages = id => {
 export const imageSpecificRatio = {
   wakency: [{ id: "1", ratioWidth: 3, ratioHeight: 1 }],
   benefactory: [{ id: '1', ratioWidth: 2, ratioHeight: 1 }],
-  nykaa: [
+  Tesla1: [
      {id: '1', ratioWidth: 3, ratioHeight: 1},
      {id: '5', ratioWidth: 3, ratioHeight: 1},
   ]
