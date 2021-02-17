@@ -5,7 +5,6 @@ import Loader from "./modules/loader/loader";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimationLifecycle from 'Common/containers/animationLifecycle';
 
-const PageTransitionExample = React.lazy(() => import("./examples/pageTransition"));
 const Landing = React.lazy(() => import("./modules/landing/landing"));
 const ProjectDetailsPage = React.lazy(() =>import("./modules/projectDetailsPage"));
 
@@ -15,10 +14,6 @@ const App = () => {
       <Router>
         <Suspense fallback={null}>
           <Switch>
-            <Route
-              path="/example/pagetransition"
-              component={PageTransitionExample}
-            />
 
             <Route path="/">
               <Loader>
