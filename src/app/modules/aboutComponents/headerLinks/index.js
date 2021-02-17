@@ -12,7 +12,7 @@ const HeaderLinks = ({
   onClickProject
 }) => {
   const [showMenu, setMenuState] = useState(false);
-  const transition = useTransition(isFullScreen, null, {
+  const transition = useTransition(false, null, {
     from: {
       opacity: 1,
       transform: "translateY(-20px)"
