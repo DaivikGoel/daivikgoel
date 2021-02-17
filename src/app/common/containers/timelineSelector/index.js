@@ -39,7 +39,7 @@ class TimelineSelector extends Component {
           <Spring
             key={item.id}
             to={{
-              maxWidth: item.id === selectedId ? 170 : 0,
+              maxWidth: item.id === selectedId ? 200 : 0,
               opacity: item.id === selectedId ? 1 : 0,
               paddingRight: item.id === selectedId ? 10 : 0,
               marginLeft: tech ? 38 : item.id === selectedId ? item.restMargin : 38,
