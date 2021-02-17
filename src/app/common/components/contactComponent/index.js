@@ -12,7 +12,6 @@ import iconInstagram from 'Icons/instagramicon.png';
 import iconTwitter from 'Icons/twittericon.png';
 import Div from "Common/components/div";
 import styles from "./contact_component.module.scss";
-import PDF from 'assets/DaivikGoel.pdf';
 
 const ContactComponent = ({ className, isWhite, hideResume }) => {
   return (
@@ -60,7 +59,7 @@ const ContactComponent = ({ className, isWhite, hideResume }) => {
       </a>
       {
         !hideResume && (
-          <a className={styles.icon_link} target="_blank" href={PDF} target = "_blank">
+          <a className={styles.icon_link} target="_blank" href="https://drive.google.com/file/d/1b5PhPJP7cgRkWxIZsq-0LUaE82SmAA8I/view?usp=sharing">
           <img
             src={iconResumeWhite}
             className={styles.icon}

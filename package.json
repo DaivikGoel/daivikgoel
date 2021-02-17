@@ -1,4 +1,5 @@
 {
+  "homepage": "http://daivikgoel.github.io/daivikgoel",
   "name": "portfoliowebsite",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +50,7 @@
     "react-app-polyfill": "^1.0.1",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
+    "react-ga": "^3.3.0",
     "react-id-swiper": "^3.0.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
@@ -72,6 +74,8 @@
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "postbuild": "react-snap",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
@@ -143,6 +147,7 @@
   },
   "devDependencies": {
     "compression-webpack-plugin": "^4.0.0",
+    "gh-pages": "^3.1.0",
     "react-snap": "^1.23.0"
   }
 }
