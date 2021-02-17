@@ -37,11 +37,11 @@ const HeaderDescription = ({
               <h1> Hello, I am  <strong>Daivik Goel</strong></h1>
               <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 4A Computer Engineering
                                           Student at the University of Waterloo </p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Product Manager Intern at Tesla</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Product Author/Video Creator</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Ex-Tesla &amp; IBM</p>
               <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Founder of uWaterloo Voice</p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Vice President Of Branding at the UW PM Club</p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Director Of Outreach at the UW VR/AR Club</p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 2 x Sandford Fleming Foundation Engineering Debate Champion </p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Podcast Host of The Almost Dropouts</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Hack The North Winner</p>
             </div>
             <Div row justify align className={styles.user_button_container}>
               Checkout some of my&nbsp;

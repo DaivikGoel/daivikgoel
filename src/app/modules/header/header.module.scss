@@ -16,7 +16,7 @@ $transition-type: cubic-bezier(0.1, 0.82, 0.25, 1);
   transform-origin: top;
   z-index: 1;
   opacity: 1;
-  color: black;
+  background-color: rgba(#000000, 0.8);
 }
 
 .header_background_container {

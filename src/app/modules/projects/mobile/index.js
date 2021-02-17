@@ -12,7 +12,7 @@ import map from "lodash/map";
 import styles from "./projects_mobile.module.scss";
 import ProjectListItem from 'Common/components/projectListItem';
 import PaginationButton from "Common/components/paginationButton";
-import techDoodleImage from "Images/background/tech-doodle-background-image.png";
+import techDoodleImage from "Images/background/max-saeling--6DrJ58xtt8-unsplash.jpg";
 import { detectSwipe } from 'Common/utils/swipeGesture';
 import { random, parseNewLine } from "Common/utils";
 import { getImagePosition, getBackgroundTransition } from '../projectsHelper';

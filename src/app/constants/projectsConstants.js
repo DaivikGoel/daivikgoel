@@ -23,6 +23,7 @@ import IBMicon from 'Icons/IBM_Watson.jpg';
 import shawLogoicon from 'Images/shaw-logo-rest.png';
 import RCAFLogoicon from 'Images/RCAF-first.png';
 import Mosaicicon from 'Images/mosaic-first.png';
+import sfficon from 'Icons/sff.png';
 export const projectsListValue = {
   anchor: {
     name: 'Anchor',
@@ -234,6 +235,14 @@ export const projectsListValue = {
     icon: Mosaicicon ,
     link: "https://mosaic.com/",
     description:'Worked on a marketing app',
+    linkdescription: "More Information"
+  },
+  SFF: {
+    name: '2x Debate Champion',
+    tech: ['hackathons'],
+    icon: sfficon ,
+    link: "https://uwaterloo.ca/sandford-fleming-foundation/",
+    description:'Won 1st place twice!',
     linkdescription: "More Information"
   },
 

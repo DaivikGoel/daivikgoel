@@ -27,7 +27,7 @@ export const techList = [
     firstLogo: codeIcon,
     backgroundImage: hackBackgroundImage,
     description: "I have really enjoyed doing hackathons as it tests out your product building skills in a condensed duration. It has worked out pretty well and you can check out my projects above!",
-    projects: ['HTN', 'CHacks', 'StudentPathways']
+    projects: ['HTN', 'CHacks', 'StudentPathways', 'SFF']
   },
     {
     id: 'Youtube',
