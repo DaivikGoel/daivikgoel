@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import iconEmail from "Icons/icon-email.png";
-import iconLinkedIn from "Icons/icon-linkedin.png";
-import iconGithub from "Icons/icon-github.png";
-import iconResume from 'Icons/icon-resume.png';
 import iconEmailWhite from "Icons/icon-email-white.png";
 import iconLinkedInWhite from "Icons/icon-linkedin-white.png";
 import iconGithubWhite from "Icons/icon-github-white.png";
