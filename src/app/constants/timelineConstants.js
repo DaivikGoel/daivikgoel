@@ -39,7 +39,7 @@ export const timelineListValue = [
     restLogo: TeslaLogoRest,
     restMargin: 34, // the secound image margin because logo length is different
     backgroundImage: TeslaBackgroundImage,
-    projects: ['Tesla1']
+    projects: ['TeslaSolar', 'Powerwall', 'PVInverter']
   },
   {
     id: 'Tesla2',
@@ -54,7 +54,7 @@ export const timelineListValue = [
     restLogo: TeslaLogoRest,
     restMargin: 34, // the secound image margin because logo length is different
     backgroundImage: TeslaBackgroundImage2,
-    projects: ['Tesla2']
+    projects: ['TeslaDigital','TeslaUsed']
   },
   {
     id: 'InformationBuilders',
@@ -69,7 +69,7 @@ export const timelineListValue = [
     restLogo: IBIRest,
     restMargin: 34,
     backgroundImage: IBIBackgroundImage,
-    projects: ['snapteam', 'pulse', 'measure', 'wakency', 'benefactory', 'lighthouse']
+    projects: ['IBI']
   },
   {
     id: 'IBM',
@@ -83,7 +83,7 @@ export const timelineListValue = [
     restLogo: IBMLogoRest,
     restMargin: 37,
     backgroundImage: IBMBackgroundImage,
-    projects: ['vc_music_player']
+    projects: ['IBM1']
   },
    {
     id: 'Shaw',
@@ -97,7 +97,7 @@ export const timelineListValue = [
     restLogo: shawLogoRest,
     restMargin: 37,
     backgroundImage: shawbackgroundImage,
-    projects: ['vc_music_player']
+    projects: ['Shaw1']
   },
     {
     id: 'RCAF',
@@ -111,7 +111,7 @@ export const timelineListValue = [
     restLogo: RCAFLogoRest,
     restMargin: 50,
     backgroundImage: RCAFbackgroundImage,
-    projects: ['vc_music_player']
+    projects: ['RCAF1']
   },
     {
     id: 'Mosaic',
@@ -125,7 +125,7 @@ export const timelineListValue = [
     restLogo: MosaicRest,
     restMargin: 40,
     backgroundImage: MosaicbackgroundImage,
-    projects: ['vc_music_player']
+    projects: ['Mosaic1']
   }
 ];
 

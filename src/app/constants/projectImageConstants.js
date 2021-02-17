@@ -1,5 +1,5 @@
 const projectImages = {
-  snapteam: require.context(`../../assets/images/projectImages/snapteam`, false, /.*\.png$/),
+  anchor: require.context(`../../assets/images/projectImages/snapteam`, false, /.*\.png$/),
   pulse: require.context(`../../assets/images/projectImages/pulse`, false, /.*\.png$/),
   measure: require.context(`../../assets/images/projectImages/measure`, false, /.*\.png$/),
   wakency: require.context(`../../assets/images/projectImages/wakency`, false, /.*\.png$/),

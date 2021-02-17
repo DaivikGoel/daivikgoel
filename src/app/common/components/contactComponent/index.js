@@ -7,6 +7,9 @@ import iconEmailWhite from "Icons/icon-email-white.png";
 import iconLinkedInWhite from "Icons/icon-linkedin-white.png";
 import iconGithubWhite from "Icons/icon-github-white.png";
 import iconResumeWhite from 'Icons/icon-resume-white.png';
+import iconMedium from 'Icons/mediumicon.png';
+import iconInstagram from 'Icons/instagramicon.png';
+import iconTwitter from 'Icons/twittericon.png';
 import Div from "Common/components/div";
 import styles from "./contact_component.module.scss";
 
@@ -18,21 +21,39 @@ const ContactComponent = ({ className, isWhite, hideResume }) => {
       align
       className={`${styles.social_container} ${className}`}
     >
-      <a className={styles.icon_link} target="_blank" href="https://github.com/riyaz942">
+      <a className={styles.icon_link} target="_blank" href="https://www.instagram.com/daivikgoel">
         <img
-          src={isWhite ? iconGithubWhite : iconGithub}
+          src={iconInstagram}
           className={styles.icon}
         />
       </a>
-      <a className={styles.icon_link} target="_blank" href="https://www.linkedin.com/in/riyaz942/">
+        <a className={styles.icon_link} target="_blank" href="https://www.twitter.com/daivikgoel">
         <img
-          src={isWhite ? iconLinkedInWhite : iconLinkedIn}
+          src={iconTwitter}
           className={styles.icon}
         />
       </a>
-      <a className={styles.icon_link} target="_blank" href="mailto:ahmed.riyaz94@gmail.com">
+      <a className={styles.icon_link} target="_blank" href="https://github.com/DaivikGoel">
         <img
-          src={isWhite ? iconEmailWhite : iconEmail}
+          src={iconGithubWhite }
+          className={styles.icon}
+        />
+      </a>
+       <a className={styles.icon_link} target="_blank" href="https://medium.com/@daivikgoel">
+        <img
+          src={iconMedium}
+          className={styles.icon}
+        />
+      </a>
+      <a className={styles.icon_link} target="_blank" href="https://www.linkedin.com/in/daivikg/">
+        <img
+          src={iconLinkedInWhite}
+          className={styles.icon}
+        />
+      </a>
+      <a className={styles.icon_link} target="_blank" href="mailto:daivikgoel@gmail.com">
+        <img
+          src={iconEmailWhite}
           className={styles.icon}
         />
       </a>
@@ -40,7 +61,7 @@ const ContactComponent = ({ className, isWhite, hideResume }) => {
         !hideResume && (
           <a className={styles.icon_link} target="_blank" href="https://drive.google.com/file/d/1wsyIqp20IRSRLPZhYG5FqwdqLek8vx4X/view?usp=sharing">
           <img
-            src={isWhite ? iconResumeWhite : iconResume}
+            src={iconResumeWhite}
             className={styles.icon}
           />
         </a>  

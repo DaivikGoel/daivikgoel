@@ -4,6 +4,9 @@
 .project_link {
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+}
 
 .slide_items {
   display: flex;
@@ -52,14 +55,14 @@
     position: relative;
 
     .title {
-      font-size: 25px;
+      font-size: 2vh;
       opacity: 1;
       transition: opacity 0.5s $transition-fast-in-slow-out;
     }
 
     .description {
       margin-top: 6px;
-      font-size: 12px;
+      font-size: 1vh;
       text-transform: capitalize;
       opacity: 1;
       transition: opacity 0.5s $transition-fast-in-slow-out;

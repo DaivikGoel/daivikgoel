@@ -17,11 +17,7 @@ const ProjectListItem = ({ index, project, style, className }) => {
   };
 
   return (
-    <Link
-      to={`/project/${project.slug}`}
-      className={styles.project_link}
-      onClick={onClickContainer}
-    >
+    <a target="_blank" href={project.link}>
       <div
         id="project-container"
         style={{ ...style, zIndex: index }}
@@ -44,12 +40,12 @@ const ProjectListItem = ({ index, project, style, className }) => {
           className={styles.title_container}
         >
           <div className={styles.title}>{project.name}</div>
-          <div className={styles.description}>{project.tech.join(" | ")}</div>
-          <div className={styles.overlay_view_project}>View Project</div>
+          <div className={styles.description}>{project.description}</div>
+          <div className={styles.overlay_view_project}>{project.linkdescription}</div>
         </Div>
         <div className={styles.bottom_background_gradient}></div>
       </div>
-    </Link>
+    </a>
   );
 };
 
