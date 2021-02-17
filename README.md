@@ -1,6 +1,4 @@
-# My Developer Portfolio 😊
+# Daivik Goel's Personal Website
 
 
-New Personal Website. 
-
-Inspiration and Starting Point is from https://github.com/riyaz942/web-portfolio . 
+Inspiration and Starting Point is from https://github.com/riyaz942/web-portfolio .
