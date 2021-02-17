@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f510cf433162b73e796d59f238d822e7",
+    "revision": "ae6870c793bb4796b504ace263a3a761",
     "url": "/daivikgoel/index.html"
   },
   {
-    "revision": "9564d1dfcceb4f52b14afa47308923bf",
+    "revision": "63a23c053e12cc3992b11e51d69b8e88",
     "url": "/daivikgoel/index.html.gz"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daivikgoel/static/css/2.3e04b67a.chunk.css.map.gz"
   },
   {
-    "revision": "d069dae69058b38cf08d",
+    "revision": "83e8334e7d459a02906e",
     "url": "/daivikgoel/static/css/main.efbf9ee1.chunk.css"
   },
   {
@@ -92,16 +92,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daivikgoel/static/js/5.a94557d0.chunk.js.map.gz"
   },
   {
-    "revision": "d069dae69058b38cf08d",
-    "url": "/daivikgoel/static/js/main.b226068b.chunk.js"
+    "revision": "83e8334e7d459a02906e",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js"
   },
   {
-    "revision": "e83bd804ad12efde704223c010400133",
-    "url": "/daivikgoel/static/js/main.b226068b.chunk.js.gz"
+    "revision": "0e2e430d5f27e23c990721a88b928e34",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js.gz"
   },
   {
-    "revision": "84271f73eab1aa3751304d31b6ab278a",
-    "url": "/daivikgoel/static/js/main.b226068b.chunk.js.map.gz"
+    "revision": "a151afb25ac12fb8c44f3caf01e9f8da",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js.map.gz"
   },
   {
     "revision": "1946faa0c630a2f8578a",
