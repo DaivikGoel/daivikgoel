@@ -1,5 +1,5 @@
 import TeslaLogoFirst from 'Images/tesla-first.png';
-import TeslaLogoRest from 'Images/tesla-rest.svg';
+import TeslaLogoRest from 'Images/tesla-rest.png';
 
 import IBIFirst from 'Images/ibi-first.jpg';
 import IBIRest from 'Images/ibi-rest.png';
@@ -33,8 +33,8 @@ export const timelineListValue = [
     position: 'Technical Program Manager',
     duration: 'May 2020 - August 2020',
     location: 'Remote(Palo Alto)',
-    roleDetail: 'In Nykaa I got to work as a React frontend developer, worked on production bugs and features like Mobile Signup flow implementation, Nykaa Pro, Recent search and search history and their AR makeup implementation with Modiface.',
-    companyDetail: 'Nykaa is an e-commerce website offering beauty and wellness products from more than 500 leading brands. Nykaa follows an inventory-based model with warehouses in Mumbai, New Delhi, and Chennai as its offline presence is in 60 stores and expanding. It claims to have over 1000+ curated brands and 85,000 products.',
+    roleDetail: '',
+    companyDetail: '',
     firstLogo: TeslaLogoFirst,
     restLogo: TeslaLogoRest,
     restMargin: 34, // the secound image margin because logo length is different
@@ -48,8 +48,8 @@ export const timelineListValue = [
     position: 'Product Manager',
     duration: 'January 2020 - April 2020',
     location: 'Remote(Palo Alto)',
-    roleDetail: 'In Nykaa I got to work as a React frontend developer, worked on production bugs and features like Mobile Signup flow implementation, Nykaa Pro, Recent search and search history and their AR makeup implementation with Modiface.',
-    companyDetail: 'Nykaa is an e-commerce website offering beauty and wellness products from more than 500 leading brands. Nykaa follows an inventory-based model with warehouses in Mumbai, New Delhi, and Chennai as its offline presence is in 60 stores and expanding. It claims to have over 1000+ curated brands and 85,000 products.',
+    roleDetail: '',
+    companyDetail: '',
     firstLogo: TeslaLogoFirst,
     restLogo: TeslaLogoRest,
     restMargin: 34, // the secound image margin because logo length is different
@@ -63,8 +63,8 @@ export const timelineListValue = [
     position: 'Product Manager, Cloud',
     duration: 'September 2019 - December 2019',
     location: 'New York',
-    roleDetail: 'In TailoredTech I got to experience many roles. I was initially working as an Android developer for a year then jumped on to these tech stacks :- Laravel, React-Native and React.',
-    companyDetail: 'Tailored Tech was a service based startup specialised in web and mobile development, and had clients like Nykaa, Ezone, Sportobuddy, healthcode, hippily, wok express, etc.<br /> TailoredTech later got acqui-hired by Nykaa.',
+    roleDetail: '',
+    companyDetail: '',
     firstLogo: IBIFirst,
     restLogo: IBIRest,
     restMargin: 34,
