@@ -60,6 +60,29 @@ class Projects extends Component {
     });
   };
 
+    getImageBackgroundAnimation = selectedTechId => {
+    if (this.isFirstAnimation) {
+      return {
+        from: { transform: 'translateY(0vh)' },
+        enter: { transform: 'translateY(0vh)' },
+        leave: { transform: 'translateY(0vh)' }
+      };
+    }
+    else if (selectedTechId) {
+      return {
+        from: { transform: 'translateY(100vh)' },
+        enter: { transform: 'translateY(0vh)' },
+        leave: { transform: 'translateY(-100vh)' }
+      };
+    }
+
+    return {
+      from: { transform: 'translateY(-100vh)' },
+      enter: { transform: 'translateY(0vh)' },
+      leave: { transform: 'translateY(100vh)' }
+    };
+  };
+
   render() {
     const { selectedTechId, techTransitionAnimation } = this.state;
 
@@ -69,9 +92,29 @@ class Projects extends Component {
 
     return (
       <Div row fillParent align="stretch" className={styles.timeline_container}>
-        <img src={techDoodleImage} className={styles.background_static_image} />
+      <Transition
+          items={tech}
+          keys={tech => tech.id}
+          from={this.getImageBackgroundAnimation(selectedTechId).from}
+          enter={this.getImageBackgroundAnimation(selectedTechId).enter}
+          leave={this.getImageBackgroundAnimation(selectedTechId).leave}
+        >
 
-        <Transition
+          {tech=> props => (
+            <img
+              src={tech.backgroundImage}
+              style={props}
+              className={styles.background_image_back}
+            ></img>
+          )}
+        </Transition>
+        <div className={styles.background_overlay}></div>
+      
+ 
+        <div className={styles.left_background_gradient}></div>
+
+        <Div className={styles.left_container}>
+                 <Transition
           items={tech}
           keys={tech => tech.id}
           from={{ opacity: 0 }}
@@ -85,8 +128,8 @@ class Projects extends Component {
               const toAnimation = tech.id == selectedTechId ? enter : leave;
               const isReactRelated =
                 tech.id == "TAD" ||
-                tech.id == "react-native" ||
-                tech.id == "electron";
+                tech.id == "Youtube" ||
+                tech.id == "medium";
 
               return (
                 <Spring
@@ -109,7 +152,7 @@ class Projects extends Component {
                         className={styles.background_image_container}
                       >
                         <img
-                          src={tech.backgroundImage}
+                          src={tech.firstLogo}
                           style={{
                             left: imagePosition.left,
                             right: imagePosition.right,
@@ -127,9 +170,6 @@ class Projects extends Component {
             }
           )}
         </Transition>
-        <div className={styles.left_background_gradient}></div>
-
-        <Div className={styles.left_container}>
           <TimelineSelector
             selectedId={selectedTechId}
             listValue={techList}
