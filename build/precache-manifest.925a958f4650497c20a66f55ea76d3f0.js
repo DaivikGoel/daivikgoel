@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57c93d5c262b074ff1afb86879f1d55c",
+    "revision": "ae6870c793bb4796b504ace263a3a761",
     "url": "/daivikgoel/index.html"
   },
   {
-    "revision": "b25531bcc76859cf7882562d398d1db6",
+    "revision": "63a23c053e12cc3992b11e51d69b8e88",
     "url": "/daivikgoel/index.html.gz"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daivikgoel/static/css/2.3e04b67a.chunk.css.map.gz"
   },
   {
-    "revision": "b594df0ec7a9811ef465",
+    "revision": "83e8334e7d459a02906e",
     "url": "/daivikgoel/static/css/main.efbf9ee1.chunk.css"
   },
   {
@@ -80,28 +80,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daivikgoel/static/js/2.34cadae7.chunk.js.map.gz"
   },
   {
-    "revision": "92ba8474c8973431af84",
-    "url": "/daivikgoel/static/js/5.08ad61a6.chunk.js"
+    "revision": "a1ed35bc34f451134623",
+    "url": "/daivikgoel/static/js/5.a94557d0.chunk.js"
   },
   {
-    "revision": "c9f824da5220e3f2243ef4fcd264d487",
-    "url": "/daivikgoel/static/js/5.08ad61a6.chunk.js.gz"
+    "revision": "dcad5990a9acac9da4c4df183363f233",
+    "url": "/daivikgoel/static/js/5.a94557d0.chunk.js.gz"
   },
   {
-    "revision": "991f5790d38b997d55a60f881324ed10",
-    "url": "/daivikgoel/static/js/5.08ad61a6.chunk.js.map.gz"
+    "revision": "87c4ca9bee9b929e9918637bab21d02e",
+    "url": "/daivikgoel/static/js/5.a94557d0.chunk.js.map.gz"
   },
   {
-    "revision": "b594df0ec7a9811ef465",
-    "url": "/daivikgoel/static/js/main.a4b41cdd.chunk.js"
+    "revision": "83e8334e7d459a02906e",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js"
   },
   {
-    "revision": "f38f7ab6b91159d89543cbb2e48b6f9e",
-    "url": "/daivikgoel/static/js/main.a4b41cdd.chunk.js.gz"
+    "revision": "0e2e430d5f27e23c990721a88b928e34",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js.gz"
   },
   {
-    "revision": "b68609547c523a6672c61ea40c76adf4",
-    "url": "/daivikgoel/static/js/main.a4b41cdd.chunk.js.map.gz"
+    "revision": "a151afb25ac12fb8c44f3caf01e9f8da",
+    "url": "/daivikgoel/static/js/main.efa1cb60.chunk.js.map.gz"
   },
   {
     "revision": "1946faa0c630a2f8578a",

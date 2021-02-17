@@ -1,5 +1,5 @@
 {
-  "homepage": "http://daivikgoel.github.io/daivikgoel",
+  "homepage": "https://daivikgoel.github.io/daivikgoel/",
   "name": "portfoliowebsite",
   "version": "0.1.0",
   "private": true,
@@ -72,8 +72,6 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "postbuild": "react-snap",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",

@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import styles from "./app.scss";
 import Div from "Common/components/div";
 import Loader from "./modules/loader/loader";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import AnimationLifecycle from 'Common/containers/animationLifecycle';
 
 const Landing = React.lazy(() => import("./modules/landing/landing"));
@@ -15,7 +15,7 @@ const App = () => {
         <Suspense fallback={null}>
           <Switch>
 
-            <Route path="/">
+            <Route path="">
               <Loader>
                 <Landing />
                 <Route 
