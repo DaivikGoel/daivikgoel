@@ -35,31 +35,23 @@ const HeaderDescription = ({
               <Div row justify align className={styles.user_button_container}>
               </Div>
               <h1> Hello, I am  <strong>Daivik Goel</strong></h1>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 4A Computer Engineering
-                                          Student at the University of Waterloo </p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> 2022 BASc Computer Engineering - University of Waterloo </p>
               <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Product Author/Video Creator</p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Ex-Tesla &amp; IBM</p>
-              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Founder of uWaterloo Voice</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Ex-Cisco Meraki, Tesla &amp; IBM</p>
               <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Podcast Host of The Almost Dropouts</p>
+              <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Founder of uWaterloo Voice</p>
+
               <p class="wow fadeInUp color-white" data-wow-delay="0.8s"> Hack The North Winner</p>
             </div>
             <Div row justify align className={styles.user_button_container}>
-              Checkout some of my&nbsp;
+              Follow Me On My&nbsp;
               <Div
                 align
                 className={styles.user_button}
-                onClick={onClickProject}
+                onClick={()=> window.open("https://linktr.ee/DaivikGoel", "_blank")}
+                
               >
-               Personal Ventures
-                <Underline isFirstTime={isFirstTime} />
-              </Div>
-              &nbsp;or some of my &nbsp;
-              <Div
-                align
-                className={styles.user_button}
-                onClick={onClickTimeline}
-              >
-                Previous Experiences
+               Journey!
                 <Underline isFirstTime={isFirstTime} />
               </Div>
             </Div>

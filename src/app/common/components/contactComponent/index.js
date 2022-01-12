@@ -55,7 +55,7 @@ const ContactComponent = ({ className, isWhite, hideResume }) => {
       </a>
       {
         !hideResume && (
-          <a className={styles.icon_link} target="_blank" href="https://drive.google.com/file/d/1b5PhPJP7cgRkWxIZsq-0LUaE82SmAA8I/view?usp=sharing">
+          <a className={styles.icon_link} target="_blank" href="https://drive.google.com/file/d/1tOpmoKTZ66BtaIXCxMRt_-ikD8vDLNgm/view?usp=sharing">
           <img
             src={iconResumeWhite}
             className={styles.icon}

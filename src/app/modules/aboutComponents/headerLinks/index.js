@@ -81,15 +81,15 @@ const HeaderLinks = ({
             <Div row className={styles.bodytype_container}>
               <div
                 className={styles.header_link_button}
-                onClick={onClickProject}
+                onClick={()=> window.open("https://anchor.fm/thealmostdropouts", "_blank")}
               >
-                Ventures
+                Podcast
               </div>
               <div
                 className={styles.header_link_button}
-                onClick={onClickTimeline}
+                onClick={()=> window.open("https://calendly.com/daivikgoel", "_blank")}
               >
-                Experience
+                Let's Talk
               </div>
             </Div>
             <animated.div
