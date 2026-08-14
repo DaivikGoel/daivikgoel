@@ -116,17 +116,8 @@ a.tile--shor:hover { background: var(--teal-hover); }
   flex: 0 0 auto;
   width: 150px;
   height: 150px;
-  background: var(--ink);
-  color: var(--cream);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 6px;
-  padding: 14px;
+  object-fit: cover;
 }
-.pod__art-title { font-size: 22px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
-.pod__art-rule { height: 3px; background: var(--cream); }
-.pod__art-sub { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
 .pod__copy { display: flex; flex-direction: column; gap: 10px; }
 .pod__title { font-size: 22px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; }
 .pod__sub { font-size: 17px; font-weight: 400; line-height: 1.4; color: var(--body-gray); }
@@ -142,7 +133,7 @@ a.tile--shor:hover { background: var(--teal-hover); }
 
 /* Founders Brew */
 .brew { gap: 18px; }
-.brew__photo { width: 100%; height: 150px; object-fit: cover; }
+.brew__photo { width: 100%; height: 150px; object-fit: contain; background: #fff; }
 .brew__copy { font-size: 17px; font-weight: 400; line-height: 1.45; }
 .tile--mid { min-height: 200px; }
 
@@ -162,10 +153,6 @@ a.tile--shor:hover { background: var(--teal-hover); }
   justify-content: center;
 }
 .project__media img { width: 100%; height: 100%; object-fit: cover; }
-.project__media--contain { background: #fff; }
-.project__media--contain img { object-fit: contain; }
-.project__media--pad { padding: 10px; background: var(--cream-hover); }
-.project__media--pad img { width: auto; max-height: 100%; }
 .project__media--mark {
   background: var(--ink);
   color: var(--cream);
@@ -196,10 +183,12 @@ a.tile--shor:hover { background: var(--teal-hover); }
 .city__name { font-weight: 700; }
 .city__map { font-weight: 500; color: var(--body-gray); }
 
-/* Photography */
+/* Photography — aspect ratios match the design's 196px-tall slots at
+   desktop width, then scale proportionally instead of distorting */
 .tile--unsplash { min-height: 220px; }
 .tile--photo { padding: 12px; }
-.tile--photo img { width: 100%; height: 196px; object-fit: cover; }
+.tile--photo img { width: 100%; height: auto; aspect-ratio: 254 / 196; object-fit: cover; }
+.tile--photo-wide img { aspect-ratio: 534 / 196; }
 
 /* Footer */
 .footer {
@@ -220,6 +209,9 @@ a.tile--shor:hover { background: var(--teal-hover); }
   .grid { grid-template-columns: repeat(2, 1fr); }
   .page { padding: 56px 28px 72px; }
   .profile__name { font-size: 40px; }
+  /* Photography: pair the Unsplash and square tiles so the full-width
+     photo doesn't strand empty cells beside them */
+  .tile--photo-wide { order: 1; }
 }
 
 @media (max-width: 560px) {
@@ -231,6 +223,9 @@ a.tile--shor:hover { background: var(--teal-hover); }
   .newsletter__headline { font-size: 26px; }
   .tile--tall, .tile--mid { min-height: 160px; }
   .pod { flex-direction: column; align-items: flex-start; }
+  .tile--photo img, .tile--photo-wide img { aspect-ratio: 3 / 2; }
+  .project__media { height: auto; aspect-ratio: 16 / 9; }
+  .brew__photo { height: auto; aspect-ratio: 1100 / 318; }
   .cities__grid { grid-template-columns: 1fr; gap: 0; }
   .city:nth-last-child(2) { border-bottom: 1px solid var(--ink); }
   .footer { flex-direction: column; gap: 10px; }
