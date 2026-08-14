@@ -11,8 +11,12 @@
   <meta property="og:url" content="https://daivikgoel.com">
   <meta property="og:image" content="https://daivikgoel.com/assets/avatar.jpg">
   <meta name="twitter:card" content="summary">
+  <!-- favicon.svg self-adapts via internal CSS; the media-attribute links
+       cover browsers that respect them, and the .ico is the legacy fallback -->
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-black.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-white.svg" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
