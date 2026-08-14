@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daivik Goel</title>
+  <meta name="description" content="Daivik Goel — building Shor (YC S25), host of The Building Blocks Podcast, Founders Brew tech events, writing, photography, and more.">
+  <link rel="canonical" href="https://daivikgoel.com">
+  <meta property="og:title" content="Daivik Goel">
+  <meta property="og:description" content="Building Shor (YC S25) · Host of The Building Blocks Podcast · Founders Brew · Writer · Photographer">
+  <meta property="og:url" content="https://daivikgoel.com">
+  <meta property="og:image" content="https://daivikgoel.com/assets/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // The previous site registered a CRA service worker that precaches
+    // everything; without this, returning visitors keep seeing the old site.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (rs) {
+        rs.forEach(function (r) { r.unregister(); });
+      });
+      if (window.caches) { caches.keys().then(function (ks) { ks.forEach(function (k) { caches.delete(k); }); }); }
+    }
+  </script>
+</head>
+<body>
+<main class="page">
+  <div class="col">
+
+    <!-- Row 1: profile + newsletter / coffee chat -->
+    <section class="grid" aria-label="Profile">
+      <div class="tile tile--static tile--w2 profile">
+        <img class="profile__avatar" src="assets/avatar.jpg" alt="Daivik Goel" width="132" height="132">
+        <div class="profile__id">
+          <h1 class="profile__name">Daivik Goel</h1>
+          <p class="profile__role">Building Shor (YC S25)</p>
+          <p class="profile__bio">Writer · Builder · Uncle<br>Host of The Building Blocks Podcast<br>I throw tech events through Founders Brew<br>San Francisco · uWaterloo Computer Eng grad</p>
+        </div>
+        <div class="rule"></div>
+        <nav class="profile__social" aria-label="Social links">
+          <a href="https://x.com/daivikgoel" target="_blank" rel="noopener">X</a>
+          <a href="https://www.linkedin.com/in/daivikg/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/daivikgoel/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@daivikgoel" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://www.tiktok.com/@daivikgoel" target="_blank" rel="noopener">TikTok</a>
+        </nav>
+      </div>
+
+      <div class="tile--w2 stack">
+        <a class="tile tile--newsletter" href="https://daivikgoel.substack.com" target="_blank" rel="noopener">
+          <span class="eyebrow eyebrow--light">Newsletter</span>
+          <span class="tile__body">
+            <span class="newsletter__headline">Join over 1500+ top founders and operators</span>
+            <span class="newsletter__sub">Bi-weekly on IRL events, startups, and building products.</span>
+            <span class="newsletter__url">daivikgoel.substack.com →</span>
+          </span>
+        </a>
+        <a class="tile tile--coffee" href="https://shor.cal.com/daivik/chat-with-daivik-shor" target="_blank" rel="noopener">
+          <span class="coffee__title">Coffee chat</span>
+          <span class="meta">Book 30 min →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Shor -->
+    <section class="section">
+      <h2 class="section__heading">Shor</h2>
+      <div class="grid">
+        <a class="tile tile--shor tile--w2" href="https://shorpay.com" target="_blank" rel="noopener">
+          <img class="shor__lockup" src="assets/logo-lockup-white.svg" alt="Shor" width="116" height="42">
+          <span class="tile__body">
+            <span class="shor__headline">The fastest, most affordable payroll for global teams</span>
+            <span class="shor__url">shorpay.com →</span>
+          </span>
+        </a>
+        <a class="tile tile--tall" href="https://x.com/Shor_Pay" target="_blank" rel="noopener">
+          <span class="eyebrow">Follow Shor</span>
+          <span class="tile__title">X →</span>
+        </a>
+        <a class="tile tile--tall" href="https://www.linkedin.com/company/shorpay/" target="_blank" rel="noopener">
+          <span class="eyebrow">Follow Shor</span>
+          <span class="tile__title">LinkedIn →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- The Building Blocks Podcast -->
+    <section class="section">
+      <h2 class="section__heading">The Building Blocks Podcast</h2>
+      <div class="grid">
+        <div class="tile tile--static tile--w2 pod">
+          <div class="pod__art" role="img" aria-label="The Building Blocks Podcast cover art">
+            <span class="pod__art-title">The<br>Building<br>Blocks</span>
+            <span class="pod__art-rule"></span>
+            <span class="pod__art-sub">Podcast</span>
+          </div>
+          <div class="pod__copy">
+            <p class="pod__title">New episodes Tuesdays</p>
+            <p class="pod__sub">5am PST / 8am EST. Conversations with the people building what comes next.</p>
+          </div>
+        </div>
+        <a class="tile tile--listen" href="https://open.spotify.com/show/3y0AFc1AmjxAAxNTdrB37r?si=20e000ea1a474b55" target="_blank" rel="noopener">Spotify →</a>
+        <a class="tile tile--listen" href="https://podcasts.apple.com/us/podcast/the-building-blocks-podcast/id1647108279" target="_blank" rel="noopener">Apple Podcasts →</a>
+        <a class="tile tile--listen tile--listen-wide tile--w2" href="https://www.youtube.com/@daivikgoel" target="_blank" rel="noopener">Watch on YouTube →</a>
+        <a class="tile tile--listen tile--listen-wide tile--w2" href="https://www.instagram.com/thebbpod/" target="_blank" rel="noopener">@thebbpod →</a>
+      </div>
+    </section>
+
+    <!-- Founders Brew -->
+    <section class="section">
+      <h2 class="section__heading">Founders Brew Tech Events</h2>
+      <div class="grid">
+        <div class="tile tile--static tile--w2 brew">
+          <img class="brew__photo" src="assets/brew-photo.jpg" alt="Founders Brew event">
+          <p class="brew__copy">Tech mixers for ambitious people. No entry fees, no corporate agenda. 2,000+ founders so far across SF, Toronto, and NYC.</p>
+        </div>
+        <a class="tile tile--mid" href="https://luma.com/foundersbrew" target="_blank" rel="noopener">
+          <span class="eyebrow">Upcoming</span>
+          <span class="tile__title tile__title--sm">Events calendar →</span>
+        </a>
+        <a class="tile tile--mid" href="https://chat.whatsapp.com/CMSrDHsBtYUFpZkv0JDcgz" target="_blank" rel="noopener">
+          <span class="eyebrow">2,000+ founders</span>
+          <span class="tile__title tile__title--sm">Join our community →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Writing -->
+    <section class="section">
+      <h2 class="section__heading">Writing</h2>
+      <div class="grid">
+        <a class="tile tile--writing tile--w2" href="https://daivikgoel.medium.com" target="_blank" rel="noopener">
+          <span class="eyebrow">Essays</span>
+          <span class="tile__body">
+            <span class="writing__title">Medium</span>
+            <span class="meta">daivikgoel.medium.com →</span>
+          </span>
+        </a>
+        <a class="tile tile--writing tile--w2" href="https://www.instagram.com/outsourcedthinker/" target="_blank" rel="noopener">
+          <span class="eyebrow">Verse</span>
+          <span class="tile__body">
+            <span class="writing__title">Poetry</span>
+            <span class="meta">@outsourcedthinker →</span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Previous projects -->
+    <section class="section">
+      <h2 class="section__heading">Previous projects</h2>
+      <div class="grid">
+        <a class="tile tile--project" href="https://github.com/DaivikGoel/QuickScan" target="_blank" rel="noopener">
+          <span class="project__media project__media--mark" aria-hidden="true">QS</span>
+          <span class="tile__body tile__body--tight">
+            <span class="eyebrow eyebrow--sm">Project</span>
+            <span class="project__title">QuickScan →</span>
+          </span>
+        </a>
+        <a class="tile tile--project" href="https://devpost.com/software/neuralnotes" target="_blank" rel="noopener">
+          <span class="project__media project__media--contain">
+            <img src="assets/project-neuralnotes.png" alt="">
+          </span>
+          <span class="tile__body tile__body--tight">
+            <span class="eyebrow eyebrow--sm">Project</span>
+            <span class="project__title">NeuralNotes →</span>
+          </span>
+        </a>
+        <a class="tile tile--project" href="https://open.spotify.com/show/2y8pUgQRog4rjhWfRtrtCA" target="_blank" rel="noopener">
+          <span class="project__media project__media--contain project__media--pad">
+            <img src="assets/project-dropouts.png" alt="">
+          </span>
+          <span class="tile__body tile__body--tight">
+            <span class="eyebrow eyebrow--sm">Podcast</span>
+            <span class="project__title">The Almost Dropouts Podcast →</span>
+          </span>
+        </a>
+        <a class="tile tile--project" href="https://devpost.com/software/karaoke-party" target="_blank" rel="noopener">
+          <span class="project__media">
+            <img src="assets/project-karaoke.jpg" alt="">
+          </span>
+          <span class="tile__body tile__body--tight">
+            <span class="eyebrow eyebrow--sm">Project</span>
+            <span class="project__title">Karaoke Party →</span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Personal recommendations -->
+    <section class="section">
+      <h2 class="section__heading">Personal recommendations</h2>
+      <div class="tile tile--static cities">
+        <div class="cities__header">
+          <p class="cities__title">Where to eat, drink, and wander</p>
+          <span class="cities__count">16 cities</span>
+        </div>
+        <div class="cities__bar"></div>
+        <div class="cities__grid">
+          <a class="city" href="https://maps.app.goo.gl/AWfP6epwWy1E6HoFA" target="_blank" rel="noopener"><span class="city__name">San Francisco</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/BVbYrtrEtVsyjNBN9" target="_blank" rel="noopener"><span class="city__name">Las Vegas</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/xPdLrqr4U7aTJhkK6" target="_blank" rel="noopener"><span class="city__name">Los Angeles</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/EBJvGftx4daizJu19" target="_blank" rel="noopener"><span class="city__name">Mexico City</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/4SjRWgcFnoJ1xdJ48" target="_blank" rel="noopener"><span class="city__name">Toronto</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/VnPieknNmGcg98od6" target="_blank" rel="noopener"><span class="city__name">New Delhi</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/d4NTtrXudCMxmkHQ6" target="_blank" rel="noopener"><span class="city__name">New York</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/DHP4VSaWkCSwP8ja6" target="_blank" rel="noopener"><span class="city__name">Istanbul</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/dvu1CH59GMeQ7oUEA" target="_blank" rel="noopener"><span class="city__name">Montreal</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/P9XNvTRHUTWbVCUB7" target="_blank" rel="noopener"><span class="city__name">Tokyo</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/oK53gCT6Bd7iYLdw5" target="_blank" rel="noopener"><span class="city__name">Calgary</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/7vKjtFis7PctNBLQA" target="_blank" rel="noopener"><span class="city__name">Bangkok</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/PY1A6hxRmcK2zu8V7" target="_blank" rel="noopener"><span class="city__name">Miami</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/w7o97tghT72Qfe168" target="_blank" rel="noopener"><span class="city__name">Phuket</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/2ZQg7pPLRxWpTMnb8" target="_blank" rel="noopener"><span class="city__name">Houston</span><span class="city__map">Map →</span></a>
+          <a class="city" href="https://maps.app.goo.gl/KgBcuBYhLzUBYDUGA" target="_blank" rel="noopener"><span class="city__name">Bali</span><span class="city__map">Map →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photography -->
+    <section class="section">
+      <h2 class="section__heading">Photography</h2>
+      <div class="grid">
+        <a class="tile tile--unsplash" href="https://unsplash.com/@daivikgoel" target="_blank" rel="noopener">
+          <span class="eyebrow">Free to use</span>
+          <span class="tile__body">
+            <span class="tile__title">Unsplash</span>
+            <span class="meta">@daivikgoel →</span>
+          </span>
+        </a>
+        <div class="tile tile--static tile--photo tile--w2">
+          <img src="assets/photo-wide.jpg" alt="Beach photograph by Daivik Goel">
+        </div>
+        <div class="tile tile--static tile--photo">
+          <img src="assets/photo-square.jpg" alt="Toronto skyline photograph by Daivik Goel">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Built with love from SF 💚</span>
+      <a href="https://shor.cal.com/daivik/chat-with-daivik-shor" target="_blank" rel="noopener">Book a coffee chat</a>
+    </footer>
+
+  </div>
+</main>
+</body>
+</html>
