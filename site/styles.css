@@ -182,6 +182,7 @@ a.tile--shor:hover { background: var(--teal-hover); }
 .city:nth-last-child(-n+2) { border-bottom: none; }
 .city__name { font-weight: 700; }
 .city__map { font-weight: 500; color: var(--body-gray); }
+.city--movies { border-top: 3px solid var(--ink); border-bottom: none; margin-top: -1px; }
 
 /* Photography — aspect ratios match the design's 196px-tall slots at
    desktop width, then scale proportionally instead of distorting */
